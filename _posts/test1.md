@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: post
 title: "test1"
 categories: [공부]
 
