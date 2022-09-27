@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air"  #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -107,7 +107,7 @@ author:
   name             : "辛"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "나는 **辛** 입니다."
-  location         : "Somewhere"
+  location         : "붓싼"
   email            :
   links:
     - label: "Email"
