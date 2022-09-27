@@ -1,11 +1,11 @@
  ---
-  title: "잡담"
+  title: "talk"
   layout: archive
-  permalink: categories/
+  permalink: categories/just
   author_profile: true
   sidebar_main: true  
   
   ---
   
-  {% assign posts = site.categories.공부 %}
+  {% assign posts = site.categories.just %}
   {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
