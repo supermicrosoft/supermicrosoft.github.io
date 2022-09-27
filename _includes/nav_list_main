@@ -11,22 +11,22 @@
               <ul>
                   {% for category in site.categories %}
                       {% if category[0] == "컴퓨터 구조" %}
-                          <li><a href="/categories/ML" class="">컴퓨터 구조 ()</a></li>
+                          <li><a href="/categories/컴퓨터 구조" class="">컴퓨터 구조 ()</a></li>
                       {% endif %}
                   {% endfor %}
               </ul>
               <ul>
                   {% for category in site.categories %}
                       {% if category[0] == "자료구조" %}
-                          <li><a href="/categories/DL" class="">자료구조 ()</a></li>
+                          <li><a href="/categories/자료구조" class="">자료구조 ()</a></li>
                       {% endif %}
                   {% endfor %}
               </ul>
           <span class="nav__sub-title">그냥</span>
               <ul>
                   {% for category in site.categories %}
-                      {% if category[0] == "Internship" %}
-                          <li><a href="/categories/Internship" class="">잡담 ()</a></li>
+                      {% if category[0] == "잡담" %}
+                          <li><a href="/categories/잡담" class="">잡담 ()</a></li>
                       {% endif %}
                   {% endfor %}
                       
