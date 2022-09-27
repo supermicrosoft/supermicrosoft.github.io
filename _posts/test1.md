@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "test1"
 categories: [공부]
 
