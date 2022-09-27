@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "test1"
-categories: [공부]
+categories: [study/data_structure]
+comments: true
 
 ---
 
