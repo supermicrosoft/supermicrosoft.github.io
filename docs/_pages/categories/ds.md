@@ -1,11 +1,11 @@
  ---
-  title: "자료구조"
+  title: "data structure"
   layout: archive
-  permalink: categories/공부
+  permalink: categories/study
   author_profile: true
   sidebar_main: true  
   
   ---
   
-  {% assign posts = site.categories.공부 %}
+  {% assign posts = site.categories.study %}
   {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
