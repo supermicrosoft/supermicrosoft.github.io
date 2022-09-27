@@ -7,37 +7,29 @@
               📂 <span style="">전체 글 수</style> <span style=""></style> <span style="">개</style> 
         </li>
         <li>
-          <span class="nav__sub-title">AI</span>
+          <span class="nav__sub-title">공부</span>
               <ul>
                   { for category in site.categories }
-                      { if category[0] == "ML" }
-                          <li><a href="/categories/ML" class="">머신러닝 ()</a></li>
+                      { if category[0] == "컴퓨터 구조" }
+                          <li><a href="/categories/ML" class="">컴퓨터 구조 ()</a></li>
                       { endif }
                   { endfor }
               </ul>
               <ul>
                   { for category in site.categories }
-                      { if category[0] == "DL" }
-                          <li><a href="/categories/DL" class="">딥러닝 ()</a></li>
+                      { if category[0] == "자료구조" }
+                          <li><a href="/categories/DL" class="">자료구조 ()</a></li>
                       { endif }
                   { endfor }
               </ul>
-          <span class="nav__sub-title">대외활동</span>
+          <span class="nav__sub-title">그냥</span>
               <ul>
                   { for category in site.categories }
                       { if category[0] == "Internship" }
-                          <li><a href="/categories/Internship" class="">인턴 ()</a></li>
+                          <li><a href="/categories/Internship" class="">잡담 ()</a></li>
                       { endif }
                   { endfor }
-              </ul>
-          <span class="nav__sub-title">etc</span>
-              <ul>
-                  { for category in site.categories }
-                      { if category[0] == "Blog" }
-                          <li><a href="/categories/Blog" class="">Blog Dev ()</a></li>
-                      { endif }
-                  { endfor }
-              </ul>            
+                      
         </li>
     </ul>
   </nav>
