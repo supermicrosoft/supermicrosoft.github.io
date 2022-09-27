@@ -7,26 +7,26 @@
               📂 <span style="">전체 글 수</style> <span style=""></style> <span style="">개</style> 
         </li>
         <li>
-          <span class="nav__sub-title">공부</span>
+          <span class="nav__sub-title">study</span>
               <ul>
                   {% for category in site.categories %}
-                      {% if category[0] == "컴퓨터 구조" %}
-                          <li><a href="/categories/컴퓨터 구조" class="">컴퓨터 구조 ()</a></li>
+                      {% if category[0] == "computer architecture" %}
+                          <li><a href="/categories/computer architecture" class="">컴퓨터 구조 ()</a></li>
                       {% endif %}
                   {% endfor %}
               </ul>
               <ul>
                   {% for category in site.categories %}
-                      {% if category[0] == "자료구조" %}
-                          <li><a href="/categories/자료구조" class="">자료구조 ()</a></li>
+                      {% if category[0] == "data structure" %}
+                          <li><a href="/categories/data structure" class="">자료구조 ()</a></li>
                       {% endif %}
                   {% endfor %}
               </ul>
-          <span class="nav__sub-title">그냥</span>
+          <span class="nav__sub-title">just</span>
               <ul>
                   {% for category in site.categories %}
-                      {% if category[0] == "잡담" %}
-                          <li><a href="/categories/잡담" class="">잡담 ()</a></li>
+                      {% if category[0] == "talk" %}
+                          <li><a href="/categories/talk" class="">잡담 ()</a></li>
                       {% endif %}
                   {% endfor %}
                       
