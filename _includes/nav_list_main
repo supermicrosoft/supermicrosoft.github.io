@@ -10,15 +10,15 @@
           <span class="nav__sub-title">study</span>
               <ul>
                   {% for category in site.categories %}
-                      {% if category[0] == "computer architecture" %}
-                          <li><a href="/categories/computer architecture" class="">컴퓨터 구조 ()</a></li>
+                      {% if category[0] == "computer_architecture" %}
+                          <li><a href="/categories/computer_architecture" class="">컴퓨터 구조 ()</a></li>
                       {% endif %}
                   {% endfor %}
               </ul>
               <ul>
                   {% for category in site.categories %}
-                      {% if category[0] == "data structure" %}
-                          <li><a href="/categories/data structure" class="">자료구조 ()</a></li>
+                      {% if category[0] == "data_structure" %}
+                          <li><a href="/categories/data_structure" class="">자료구조 ()</a></li>
                       {% endif %}
                   {% endfor %}
               </ul>
